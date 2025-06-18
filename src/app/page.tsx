@@ -99,7 +99,7 @@ export default function Portfolio() {
           <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent mb-4">
             Ratovomaro Agnès Sydonie
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">Développeuse Web & Étudiante en 3e année d'Informatique</p>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">Développeuse Web & Étudiante en 3e année d&apos;Informatique</p>
           <a
             href="#contact"
             className="inline-block bg-gradient-to-r from-blue-500 to-pink-500 text-white px-6 py-3 rounded-full hover:from-blue-600 hover:to-pink-600 transition-all duration-300 shadow-md hover:shadow-lg"
@@ -119,10 +119,10 @@ export default function Portfolio() {
             className="space-y-4 text-lg text-gray-700 dark:text-gray-300"
           >
             <p>
-              Je suis étudiante en troisième année de Licence professionnelle en Informatique à l'École de Management et d’Innovation Technologique (EMIT). Passionnée par le développement web.
+              Je suis étudiante en troisième année de Licence professionnelle en Informatique à l&apos;École de Management et d’Innovation Technologique (EMIT). Passionnée par le développement web.
             </p>
             <p>
-              Mon parcours dans la technologie inclut une expérience pratique avec divers frameworks et technologies, et je m'épanouis en relevant de nouveaux défis pour créer des solutions innovantes et conviviales.
+              Mon parcours dans la technologie inclut une expérience pratique avec divers frameworks et technologies, et je m&apos;épanouis en relevant de nouveaux défis pour créer des solutions innovantes et conviviales.
             </p>
           </motion.div>
         </section>
