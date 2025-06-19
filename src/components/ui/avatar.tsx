@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { cn } from "@/libs/utils"; // Assurez-vous que ce fichier existe
+import { cn } from "@/libs/utils"; 
 
 interface AvatarProps {
   src: string;
@@ -17,8 +17,7 @@ const sizeClasses = {
   lg: "w-16 h-16",
 };
 
-export default function Avatar({ src, alt, size = "md", className }: AvatarProp
-s) {
+export default function Avatar({ src, alt, size = "md", className }: AvatarProps) {
   return (
     <motion.div
       className={cn(
@@ -26,12 +25,11 @@ s) {
         sizeClasses[size],
         className,
       )}
-      whileHover={{ scale: 1.1 }} // Animation au survol
-      whileTap={{ scale: 0.9 }} // Animation au clic
-      // Supprimé onDrag ou autres props incompatibles
+      whileHover={{ scale: 1.1 }} // Animatio au survol
+      whileTap={{ scale: 0.9 }} // au clic
     >
       <Image
-        src={src} // Exemple : "/images/avatar.jpg" ou prop dynamique
+        src={src} 
         alt={alt}
         width={size === "sm" ? 32 : size === "lg" ? 64 : 48}
         height={size === "sm" ? 32 : size === "lg" ? 64 : 48}
