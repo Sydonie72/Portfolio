@@ -141,13 +141,7 @@ export default function Portfolio() {
                 role: "Développeuse",
                 year: "2024-2025",
               },
-              {
-                title: "Site de gestion d’examens QCM en ligne",
-                description: "Responsable du développement front-end d’une plateforme web pour la gestion d’examens à choix multiples en ligne avec Laravel et Next.js.",
-                link: "#",
-                role: "Responsable Front-End",
-                year: "2024-2025",
-              },
+             
               {
                 title: "Plateforme d’apprentissage interactive",
                 description: "Développement d’une plateforme interactive pour apprendre l’informatique de manière ludique, avec un focus sur le front-end.",
@@ -194,6 +188,9 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-6 flex items-center gap-2 text-blue-500 dark:text-pink-400">
             <Code className="w-8 h-8" /> Compétences
           </h2>
+           <p>
+              Ce sont les ou.
+            </p>
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
