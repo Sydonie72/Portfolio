@@ -188,8 +188,8 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-6 flex items-center gap-2 text-blue-500 dark:text-pink-400">
             <Code className="w-8 h-8" /> Compétences
           </h2>
-           <p>
-              Ce sont les ou.
+            <p>
+              
             </p>
           <motion.div
             initial={{ opacity: 0, x: 20 }}
