@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { cn } from "@/lib/utils"; // Assurez-vous que ce fichier existe
+import { cn } from "@/libs/utils"; // Assurez-vous que ce fichier existe
 
 interface AvatarProps {
   src: string;
