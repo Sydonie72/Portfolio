@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Code, FileCode, Briefcase, User } from "lucide-react";
 import { useTheme } from "next-themes";
-import Image from "next/image"; // Import ajouté pour <Image>
+import Image from "next/image"; 
 
 export default function Portfolio() {
   const { theme, setTheme } = useTheme();
@@ -91,15 +91,15 @@ export default function Portfolio() {
           <Image
             src="/images/porfolioSydoni.jpg"
             alt="Ratovomaro Agnès Sydonie"
-            width={128} // Correspond à w-32
-            height={128} // Correspond à h-32
+            width={128} 
+            height={128} 
             className="rounded-full mx-auto mb-5 border-2 border-blue-500 dark:border-pink-400 shadow-md hover:shadow-lg transition-all duration-300"
           />
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">Bonjour !</p>
           <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent mb-4">
             Ratovomaro Agnès Sydonie
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">Développeuse Web & Étudiante en 3e année d\'Informatique</p>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">Développeuse Web & Étudiante en 3e année d&apos;Informatique</p>
           <a
             href="#contact"
             className="inline-block bg-gradient-to-r from-blue-500 to-pink-500 text-white px-6 py-3 rounded-full hover:from-blue-600 hover:to-pink-600 transition-all duration-300 shadow-md hover:shadow-lg"
@@ -119,15 +119,15 @@ export default function Portfolio() {
             className="space-y-4 text-lg text-gray-700 dark:text-gray-300"
           >
             <p>
-              Je suis étudiante en troisième année de Licence professionnelle en Informatique à l\'École de Management et d\'Innovation Technologique (EMIT). Passionnée par le développement web.
+              Je suis étudiante en troisième année de Licence professionnelle en Informatique à l&apos;École de Management et d&apos;Innovation Technologique (EMIT). Passionnée par le développement web.
             </p>
             <p>
-              Mon parcours dans la technologie inclut une expérience pratique avec divers frameworks et technologies, et je m\'épanouis en relevant de nouveaux défis pour créer des solutions innovantes et conviviales.
+              Mon parcours dans la technologie inclut une expérience pratique avec divers frameworks et technologies, et je m&apos;épanouis en relevant de nouveaux défis pour créer des solutions innovantes et conviviales.
             </p>
           </motion.div>
         </section>
 
-        <section id="projects" className="py-16">
+        <section id="projects" className="py-v16">
           <h2 className="text-3xl font-bold mb-6 flex items-center gap-2 text-blue-500 dark:text-pink-400">
             <Briefcase className="w-8 h-8" /> Projets
           </h2>
@@ -216,7 +216,7 @@ export default function Portfolio() {
         <section id="contact" className="py-16 text-center">
           <h2 className="text-3xl font-bold mb-6 text-blue-500 dark:text-pink-400">Contacts</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-            Intéressé à toute collaboration ? N\'hésitez pas à me contacter !
+            Intéressé à toute collaboration ? N&apos;hésitez pas à me contacter !
           </p>
           <div className="space-y-4">
             <p>
